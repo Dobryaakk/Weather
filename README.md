@@ -14,7 +14,7 @@
 
 ### ☀️ Beautiful design
 - The bot has a beautiful and easy-to-use interface (more to come)
-
+![Weather Bot Interface](reaa.jpg)
 ### 🖥️ Ability to make weather forecasts 4 days ahead (16 days ahead in the next update)
 - The bot shows the weather forecast for 4 days ahead at 3 hour intervals
 
