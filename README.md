@@ -53,4 +53,4 @@ If you don't have Git installed, you can download it [here](https://git-scm.com/
 
 ## 📢 Contact
 
-[Dmutro](https://github.com/Dobryaakk): dobryyaakk@gmail.com
+[Dmytro](https://github.com/Dobryaakk): dobryyaakk@gmail.com
