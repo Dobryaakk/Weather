@@ -94,11 +94,13 @@ async def on_weather(message: types.Message):
 
 
 async def main_key(callback: types.CallbackQuery):
-    if callback.data == 'main_1':
+    if callback.data == 'main':
         await callback.message.answer("Выберите на сколько дней вперед вы хотите увидеть прогноз погоды 🌤", reply_markup=main_keyboard_data(), parse_mode='HTML')
-    elif callback.data in ['main_2', 'main_3', 'main_4', 'main_5']:
+    elif callback.data in ['main_1', 'main_2', 'main_3', 'main_4']:
         days = int(callback.data[-1])
         await callback.message.edit_text(request_forecast(city_id, days), reply_markup=main_keyboard_data(), parse_mode='HTML')
+    if callback.data == 'main_delete':
+        await callback.message.delete()
 
 
 def register(dp: Dispatcher):
